@@ -1,0 +1,25 @@
+rootProject.name = 'chatbot'
+
+include('common:core')
+include('domain')
+
+include('foundation:web')
+include('foundation:websocket')
+include('foundation:redis')
+
+include('shared:swagger')
+include('shared:event-client')
+include('shared:event-server')
+include('shared:bot-config-client')
+include('shared:bot-config-server')
+include('shared:client')
+include('shared:rds-service')
+include('shared:rds-bot')
+
+include('application:builder')
+include('application:chatroom')
+include('application:chatroom-fe')
+include('application:gateway')
+include('application:chatbot')
+include('application:chatbot-scheduler')
+

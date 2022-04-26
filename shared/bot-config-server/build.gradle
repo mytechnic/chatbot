@@ -1,0 +1,8 @@
+dependencies {
+    implementation project(":common:core")
+    implementation project(":domain")
+    implementation project(':foundation:redis')
+
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    implementation 'com.fasterxml.jackson.core:jackson-databind'
+}

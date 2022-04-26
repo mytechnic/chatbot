@@ -1,0 +1,19 @@
+bootJar.enabled(true)
+dependencies {
+    implementation project(':common:core')
+    implementation project(':foundation:web')
+    implementation project(':foundation:redis')
+    implementation project(':domain')
+    implementation project(':shared:client')
+    implementation project(':shared:event-server')
+    implementation project(':shared:rds-service')
+
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:3.1.1'
+    runtimeOnly 'mysql:mysql-connector-java'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.2'
+    implementation 'org.springdoc:springdoc-openapi-ui:1.6.6'
+}

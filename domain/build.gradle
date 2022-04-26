@@ -1,0 +1,6 @@
+dependencies {
+    implementation project(':common:core')
+
+    implementation 'org.hibernate.validator:hibernate-validator:7.0.4.Final'
+    implementation 'org.springdoc:springdoc-openapi-ui:1.6.7'
+}

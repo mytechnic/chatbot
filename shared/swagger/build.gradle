@@ -1,0 +1,7 @@
+dependencies {
+    implementation project(':common:core')
+    implementation project(':domain')
+    implementation project(':foundation:web')
+
+    implementation 'org.springdoc:springdoc-openapi-ui:1.6.6'
+}
